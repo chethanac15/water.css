@@ -139,6 +139,13 @@ dialog::backdrop {
   backdrop-filter: blur(4px);
 }
 
+/* Add separation and spacing for the top-level page header */
+body > header {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
 footer {
   border-top: 1px solid var(--border);
   padding-top: 10px;
